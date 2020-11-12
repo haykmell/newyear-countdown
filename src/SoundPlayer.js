@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ReactAudioPlayer from 'react-audio-player';
 import { AiOutlineSound, AiFillSound } from 'react-icons/ai';
 import Music from './songs/song.mp3';
