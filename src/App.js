@@ -36,6 +36,7 @@ function App() {
       );
       return;
     }
+    //asd
     timerComponents.push(
       <div key={index}>
         {timeLeft[interval] < 10 ? '0' + timeLeft[interval] : timeLeft[interval]} <span>{interval}</span>
