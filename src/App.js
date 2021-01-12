@@ -5,7 +5,7 @@ import SoundPlayer from './SoundPlayer';
 
 function App() {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2021-1-1`) - +new Date();
+    const difference = +new Date(`2022-1-1`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
